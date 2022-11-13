@@ -1,3 +1,4 @@
+//PipenCictern ques ans set
 const quesAnsPipenCictern = [
   {
     ques: "A cistern has two taps attached to it. Tap B can empty the cistern in 45 minutes. But Tap A can fill the cistern in just 30 minutes. Rohit started both taps unknowingly but realized his mistake after 30 minutes. He immediately closed Tap B. Now after this, in how much time will the cistern be filled?",
@@ -71,6 +72,7 @@ const quesAnsPipenCictern = [
   },
 ];
 
+//Probability ques ans set
 const quesAnsProbability = [
   {
     ques: "An event in the probability that will never be happened is called as -",
@@ -144,6 +146,7 @@ const quesAnsProbability = [
   },
 ];
 
+//ProblemsOnAge ques ans set
 const quesAnsProblemsOnAge = [
   {
     ques: "Age of Umesh will be 4 times the age of Reena in 6 years from today. If ages of Umesh and Mahesh are 7 times and 6 times the age of Reena respectively, what is present age of Umesh?",
@@ -217,6 +220,7 @@ const quesAnsProblemsOnAge = [
   },
 ];
 
+//ProfitnLoss ques ans set
 const quesAnsProfitnLoss = [
   {
     ques: "A person sold a stove for Rs. 423 and incurred a loss of 6%. At what price would it be sold so as to earn a profit of 8%?",
@@ -291,17 +295,39 @@ const quesAnsProfitnLoss = [
 ];
 
 //decalring necessary variables
+
+//for selecting right ques ans set
 var quesAns;
+
+//for calculating attempted ans
 var attemptedQues = 0;
+
+//for calculating correct nad incorrect ans
 var correctAns = 0;
 var incorrectAns = 0;
+
+//for calculating result percentage
 var percentage = 0;
+
+//for selected ques category
 var quizOptionSelected;
+
+//for selected ques no
 var optionNo;
+
+//for calculating timer
 var timerCount = 1;
+
+//for storing user name
 var userName;
+
+//for storing user email
 var userEmail;
+
+//for question ans index
 var i = 0;
+
+//for storing interval function
 var timer;
 
 var option = document.querySelectorAll(".indexSectionselectCategoryOption");

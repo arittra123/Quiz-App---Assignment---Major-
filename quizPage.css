@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f4f8ff !important;
+}
+
+.container {
+  border-radius: 12px;
+  background-color: #ffffff;
+  border: 2px solid #cccccc;
+}
+
+.indexSectionName input {
+  margin-right: 12px;
+  width: 100%;
+  outline: none;
+  border: 2px solid #2367db;
+  border-radius: 6px;
+  padding: 0px 12px;
+  background-color: #f4f8ff;
+}
+
+.indexSectionselectCategoryOption {
+  border: 2px solid #2367db;
+  padding: 8px;
+  border-radius: 14px;
+  margin-right: 12px;
+  background-color: #f4f8ff;
+  cursor: pointer;
+  font-weight: 500;
+  color: #444444;
+  /* transition: all 0.1s ease-in; */
+}
+
+.indexSectionselectCategoryOption:hover {
+  background-color: #2367db;
+  color: #ffffff;
+}
+
+.indexStartBtn {
+  font-size: 18px;
+  font-weight: 500;
+  color: #444444;
+  background-color: #2367db;
+  border-radius: 20px;
+  padding: 6px 0px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.indexStartBtn:hover {
+  color: #2367db;
+  outline: 2px solid #2367db;
+  background-color: #ffffff;
+}
+
+.indexSectionIntroContentHeading {
+  color: #444444;
+}
+
+.indexSectionIntroContentPara {
+  color: #a5a5a5;
+  font-weight: 500;
+}
+
+.selected {
+  border: 2px solid #2367db;
+  padding: 8px;
+  border-radius: 14px;
+  margin-right: 12px;
+  background-color: #2367db;
+  cursor: pointer;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.quizPageAn {
+  border: 2px solid #2367db;
+  background-color: #f4f8ff;
+  border-radius: 8px;
+  margin: 12px 0px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.selectedAns {
+  border: 2px solid #2367db;
+  background-color: #2367db;
+  border-radius: 8px;
+  margin: 12px 0px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.selectedAnsNone {
+  border: 2px solid #2367db;
+  background-color: #f4f8ff;
+  border-radius: 8px;
+  margin: 12px 0px;
+  cursor: pointer;
+  padding: 8px;
+  pointer-events: none;
+}
+
+.quizPageAn:hover {
+  background-color: #2367db;
+  color: #ffffff;
+}
+
+#con1 {
+  display: block;
+}
+
+#con2 {
+  display: none;
+}
+
+#con3 {
+  display: none;
+  border: none;
+  background-color: #f4f8ff;
+}
+
+.quizPageHeadSectionTimerScore {
+  width: 100%;
+}
+
+#quizPageHeadSectionTimer {
+  border: 2px solid #2367db;
+  width: 40px;
+  height: 35px;
+  border-radius: 4px;
+  color: #2367db;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quizPageQuesAns {
+  border: 2px solid #f4f8ff;
+  border-radius: 8px;
+  width: 100%;
+  height: 340px;
+}
+
+#quizPageQues {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.quesChangeBtnWrap {
+  display: flex;
+  justify-content: end;
+}
+
+.quesChangeBtn {
+  background-color: #2367db;
+  color: #ffffff;
+  width: 80px;
+  padding: 4px 0px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#quesCount {
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+.quizResultContainer {
+  border: 2px solid #cccccc;
+  padding: 12px;
+  border-radius: 14px;
+  background-color: #ffffff;
+}
+
+span {
+  font-weight: bold;
+  color: #2367db;
+}
+
+.startAgGTHome {
+  width: 100%;
+}
+
+.startAg {
+  border: 2px solid #2367db;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: 500;
+  background-color: #2367db;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.startAg:hover {
+  border: 2px solid #2367db;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: 500;
+  color: #2367db;
+  background-color: #ffffff;
+}
+
+.GTHome {
+  border: 2px solid rgb(244, 66, 66);
+  background-color: rgb(244, 66, 66);
+  color: #ffffff;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.GTHome:hover {
+  border: 2px solid rgb(244, 66, 66);
+  background-color: #ffffff;
+  color: rgb(244, 66, 66);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: 500;
+}
